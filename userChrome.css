@@ -1,0 +1,16 @@
+/* Import your desired components first */
+@import url(styles/menuShow.css);
+
+/* Sidebery mods */
+@import url(styles/sideberyModsLeft.css);
+
+:root {
+  --tabs-border-color: transparent !important;
+}
+
+#TabsToolbar,
+#sidebar-header,
+#sidebar-splitter {
+  display: none;
+}
+/* note: if your minimize, exit, etc menu is gone, press alt, right click the menu bar and check mark it */

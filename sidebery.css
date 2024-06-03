@@ -1,0 +1,8 @@
+@media (max-width: 40px) {
+  #root {
+    --tabs-indent: 0px !important;
+  }
+
+  [data-lvl]:not([data-lvl="0"]) {
+  }
+}
