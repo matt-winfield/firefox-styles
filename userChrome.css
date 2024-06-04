@@ -39,6 +39,6 @@
 
 /* Reduce width of address bar so app buttons have enought room to appear */
 #nav-bar-customization-target {
-  max-width: calc(100vw - 200px);
+  max-width: calc(100vw - 240px);
   overflow-x: clip;
 }
