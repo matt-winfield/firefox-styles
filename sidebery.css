@@ -22,16 +22,6 @@
   }
 }
 
-.BottomBar {
-  bottom: 38px;
-  background-color: var(--frame-bg);
-}
-
-.TabsPanel .new-tab-btns {
-  bottom: 38px;
-  z-index: 100;
-}
-
 #hidden_panels_btn {
   display: none;
 }
