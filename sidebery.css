@@ -1,6 +1,18 @@
+.Tab .body::after {
+  transition: opacity var(--d-fast) ease-in-out;
+}
+
 @media (max-width: 40px) {
+  /* Collapse the bookmarks to a single level when the sidebar is not hovered/minimised */
   #root {
     --tabs-indent: 0px !important;
+  }
+
+  /* Hide the level marks when collapsed */
+  #root[data-tabs-tree-lvl-marks="true"]
+    .Tab[data-pin="false"]:not([data-lvl="0"])
+    .body::after {
+    opacity: 0;
   }
 }
 
