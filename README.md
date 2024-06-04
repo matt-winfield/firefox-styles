@@ -13,7 +13,6 @@ This is my styling for Firefox. It is designed to work with the [Sidebery extens
 7. Go to `about:config` in Firefox.
 8. Search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to `true`.
 9. Restart Firefox.
-10. If you are missing the close, minimize, and maximize buttons, press the "Alt" key to show the toolbar, right click the title bar, and select "Menu Bar". This will show the buttons.
 
 ## Changes
 
