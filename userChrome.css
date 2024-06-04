@@ -40,5 +40,5 @@
 /* Reduce width of address bar so app buttons have enought room to appear */
 #main-window[titlepreface*="Sidebery"] #nav-bar-customization-target {
   max-width: calc(100vw - 200px);
-  overflow: hidden;
+  overflow-x: clip;
 }
