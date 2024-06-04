@@ -2,7 +2,13 @@
   #root {
     --tabs-indent: 0px !important;
   }
+}
 
-  [data-lvl]:not([data-lvl="0"]) {
-  }
+.BottomBar {
+  bottom: 64px;
+  background-color: var(--frame-bg);
+}
+
+.TabsPanel .new-tab-btns {
+  bottom: 64px;
 }
