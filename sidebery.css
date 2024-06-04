@@ -1,14 +1,20 @@
-.Tab .body::after {
+.Tab .body::after,
+.static-btns {
   transition: opacity var(--d-fast) ease-in-out;
 }
 
 @media (max-width: 40px) {
+  /* Hide the settings buttons when collapsed/minimised */
+  .static-btns {
+    opacity: 0;
+  }
+
   /* Collapse the bookmarks to a single level when the sidebar is not hovered/minimised */
   #root {
     --tabs-indent: 0px !important;
   }
 
-  /* Hide the level marks when collapsed */
+  /* Hide the level marks when are collapsed */
   #root[data-tabs-tree-lvl-marks="true"]
     .Tab[data-pin="false"]:not([data-lvl="0"])
     .body::after {
@@ -24,4 +30,8 @@
 .TabsPanel .new-tab-btns {
   bottom: 38px;
   z-index: 100;
+}
+
+#hidden_panels_btn {
+  display: none;
 }
