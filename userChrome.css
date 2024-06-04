@@ -11,34 +11,34 @@
 }
 
 /* Hide the tabs when Sidebery visible */
-#main-window[titlepreface*="Sidebery"] #TabsToolbar-customization-target {
+#TabsToolbar-customization-target {
   height: 0 !important;
   overflow: hidden;
 }
 
 /* Make the titlebar show in front of the address bar, so that the minimize, maximize, close buttons are visible */
-#main-window[titlepreface*="Sidebery"] #titlebar {
+#titlebar {
   z-index: 1;
   pointer-events: none;
 }
 
-#main-window[titlepreface*="Sidebery"] .titlebar-spacer {
+.titlebar-spacer {
   display: none;
 }
 
 /* Make the application min-maximize-close buttons height match the address bar */
-#main-window[titlepreface*="Sidebery"] .titlebar-buttonbox-container {
+.titlebar-buttonbox-container {
   height: 40px;
   pointer-events: auto;
 }
 
 /* Push up the address bar */
-#main-window[titlepreface*="Sidebery"] #nav-bar {
+#nav-bar {
   margin-top: -41px;
 }
 
 /* Reduce width of address bar so app buttons have enought room to appear */
-#main-window[titlepreface*="Sidebery"] #nav-bar-customization-target {
+#nav-bar-customization-target {
   max-width: calc(100vw - 200px);
   overflow-x: clip;
 }
