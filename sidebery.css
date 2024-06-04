@@ -11,4 +11,5 @@
 
 .TabsPanel .new-tab-btns {
   bottom: 64px;
+  z-index: 100;
 }
