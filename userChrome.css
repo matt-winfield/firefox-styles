@@ -22,6 +22,10 @@
   pointer-events: none;
 }
 
+#main-window[titlepreface*="Sidebery"] .titlebar-spacer {
+  display: none;
+}
+
 /* Make the application min-maximize-close buttons height match the address bar */
 #main-window[titlepreface*="Sidebery"] .titlebar-buttonbox-container {
   height: 40px;
@@ -35,5 +39,6 @@
 
 /* Reduce width of address bar so app buttons have enought room to appear */
 #main-window[titlepreface*="Sidebery"] #nav-bar-customization-target {
-  max-width: calc(100vw - 230px);
+  max-width: calc(100vw - 200px);
+  overflow: hidden;
 }
