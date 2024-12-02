@@ -30,6 +30,8 @@
 .titlebar-buttonbox-container {
   height: 40px;
   pointer-events: auto;
+  display: block !important;
+  margin-left: auto;
 }
 
 /* Push up the address bar */
@@ -37,7 +39,7 @@
   margin-top: -41px;
 }
 
-/* Reduce width of address bar so app buttons have enought room to appear */
+/* Reduce width of address bar so app buttons have enough room to appear */
 #nav-bar-customization-target {
   max-width: calc(100vw - 240px);
   overflow-x: clip;

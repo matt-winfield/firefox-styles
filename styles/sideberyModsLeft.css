@@ -12,7 +12,7 @@
   ) {
   width: var(--autohide-sidebar-collapsed) !important;
   min-width: unset !important;
-  z-index: 1;
+  z-index: 3 !important;
   transition: all 0.2s ease-in-out; /* doesn't do anything unless you uncomment lower bit of code */
 }
 
